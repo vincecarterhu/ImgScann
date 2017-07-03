@@ -4,15 +4,21 @@
 
 step1:
 Add it in your root build.gradle at the end of repositories:
+
+
 	allprojects {
 		repositories {
-			...
-			maven { url 'https://jitpack.io' }
+		
+	 	maven { url 'https://jitpack.io' }
 		}
 	}
+	
+	
  step2:   
  
  Add the dependency
+ 
+ 
 	dependencies {
 	        compile 'com.github.vincecarterhu:ImgScann:1.0'
 	}
