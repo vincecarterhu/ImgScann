@@ -36,6 +36,11 @@ can_zoom      表示浏览的图片是否可以缩放默认不缩放 false  
   mImgScannViewLayout.setData(list,imagePosition);  //设置数据
   mImgScannViewLayout.setIphotoClick(this);
 
-3.效果图
+3 ScannConfig.INDEX  图片的index key
+  ScannConfig.IMGS   图片的集合
+  
+4.效果图
+![image](https://github.com/vincecarterhu/ImgScann/blob/master/screensshots/Screenshot_2017-07-03-16-19-39.png)
+![image](https://github.com/vincecarterhu/ImgScann/blob/master/screensshots/Screenshot_2017-07-03-16-20-26.png)
 
 
