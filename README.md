@@ -2,6 +2,24 @@
 一个图片浏览的library
 快速实现图片的浏览
 
+step1:
+Add it in your root build.gradle at the end of repositories:
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ step2:   
+ 
+ Add the dependency
+	dependencies {
+	        compile 'com.github.vincecarterhu:ImgScann:1.0'
+	}
+
+
+
+
 用法：
 1.添加ImgBrowseViewLayout到浏览的activity
 <?xml version="1.0" encoding="utf-8"?>
@@ -36,8 +54,8 @@ can_zoom      表示浏览的图片是否可以缩放默认不缩放 false  
   mImgScannViewLayout.setData(list,imagePosition);  //设置数据
   mImgScannViewLayout.setIphotoClick(this);
 
-3.  ScannConfig.INDEX  图片的index key
-    ScannConfig.IMGS   图片的集合
+3.  ScannConfig.INDEX  图片的index的key
+    ScannConfig.IMGS   图片的集合 的key 
     该类库图片加载基于 Glide3.7  
     缩放 photoView
   
