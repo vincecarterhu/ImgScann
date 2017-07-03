@@ -41,6 +41,7 @@ can_zoom      表示浏览的图片是否可以缩放默认不缩放 false  
     该类库图片加载基于 Glide3.7  
     缩放 photoView
   
+  
 4.效果图
 ![image](https://github.com/vincecarterhu/ImgScann/blob/master/screensshots/Screenshot_2017-07-03-16-19-39.png)
 ![image](https://github.com/vincecarterhu/ImgScann/blob/master/screensshots/Screenshot_2017-07-03-16-20-26.png)
